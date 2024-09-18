@@ -41,3 +41,22 @@
 // 1. Most companies prefer to use pages router system.
 // 2. It also includes web-mobile version. We use hooks.
 // 3. nextjs allows to build both backend and front end but it is not recommended.
+// =================================================================================================
+
+// LESSON 119
+// NEW CHAPTER: Private Files, MUI, Layout Integration
+
+// Document & App private files
+// Project Metadata
+// Material UI
+// Layouts => Header and Footer
+
+// pages folder is domain
+
+// _app.tsx file => mui integration
+// _document.tsx file => SEO(Searching Engine Optimization)
+// eg: sending link of Udemy in telegram, receiver gets extra data related to Udemy. This is metadata
+
+// MUI => Material-UI is a popular React component library for building user interfaces. It provides a wide range of components, styles, and themes to help developers create visually appealing and responsive applications.
+
+// 
