@@ -28,7 +28,8 @@
 
 // While . ts files are used for general TypeScript code, . tsx files are specifically tailored for writing React components and JSX syntax.
 
-// Pages Router creates folder based routing system.
+// Pages Router is a folder based routing system.
+// Pages Routing
 
 // App components are server side rendering components on default case
 // Page components are client side rendering components on default case
@@ -57,6 +58,15 @@
 // _document.tsx file => SEO(Searching Engine Optimization)
 // eg: sending link of Udemy in telegram, receiver gets extra data related to Udemy. This is metadata
 
+// Hooks integrate with clients => _app.tsx file
+
 // MUI => Material-UI is a popular React component library for building user interfaces. It provides a wide range of components, styles, and themes to help developers create visually appealing and responsive applications.
 
-// 
+// =================================================================================================
+
+//LESSON 120 - SAAS
+
+// SASS has two formats. 
+// 1. SASS
+// 2. SCSS we use this guy.
+
