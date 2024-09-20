@@ -4,16 +4,22 @@ import { NextPage } from "next";
 
 const Home: NextPage = () => {
 	return (
-		<Stack className={"Home-page"}>
+    <Stack className={"Home-page"}>
+      			<Stack>
+				<Stack className="container">Trend Properties</Stack>
+			</Stack>
 			<Stack>
 				<Stack className="container">Popular Properties</Stack>
+      </Stack>
+      			<Stack>
+				<Stack className="container"> Advertisement</Stack>
 			</Stack>
 			<Stack>
 				<Stack className="container">Top Agent</Stack>
 			</Stack>
 			<Stack>
 				<Stack className="container">Top Properties</Stack>
-			</Stack>
+      </Stack>
 		</Stack>
 	);
 };
