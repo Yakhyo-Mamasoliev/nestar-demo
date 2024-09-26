@@ -6,8 +6,26 @@
 // Rendering System of NEXTJS
 
 // What is NEXTJS => Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.
+// in just react we needed to use socket packages to work with roots.
+// in nextjs such features are built in.
 
 // Next.js has two different routers: the App Router and the Pages Router. The App Router is a newer router that allows you to use React's latest features, such as Server Components and Streaming. The Pages Router is the original Next.js router, which allowed you to build server-rendered React applications and continues to be supported for older Next.js applications.
+
+// Next. js provides a file-based routing system, making it easier to manage routing configurations compared to React
+
+// Pages Routing: Simple, file-based routing with the pages/ directory.
+// App Routing: Newer, more powerful routing system with layouts, nested routes, and server-side rendering improvements.
+
+// Rendering in web development is the process of converting code into interactive web pages that users can view. The code is usually written in HTML, CSS, and JavaScript. The rendering process can be done on the server or on the user's browser.
+
+// nextjs allows rendering in both client and server side.
+
+// App components are server side rendering components on default case
+// Page components are client side rendering components on default case
+// ext: _document.tsx makes ssr mechanism.
+
+// we use mui despite tailwind is default framework for nextjs
+// we use SCSS/SASS of mui
 
 //    "lint": "next lint" => help developers identify and fix coding errors
 
@@ -28,13 +46,6 @@
 
 // While . ts files are used for general TypeScript code, . tsx files are specifically tailored for writing React components and JSX syntax.
 
-// Pages Router is a folder based routing system.
-// Pages Routing
-
-// App components are server side rendering components on default case
-// Page components are client side rendering components on default case
-// ext: _document.tsx makes ssr mechanism.
-
 // _DOCUMENT => (_) sign means private to router.
 
 // "use clients" => to use client side rendering in app components.
@@ -42,6 +53,19 @@
 // 1. Most companies prefer to use pages router system.
 // 2. It also includes web-mobile version. We use hooks.
 // 3. nextjs allows to build both backend and front end but it is not recommended.
+
+// Installation
+// npx create-next-app@latest
+
+// scripts
+// to run: "dev": "next dev"
+// for production 2 scripts: // "build": "next build", then "start": "next start"
+
+// page routing
+// each folder is a root. it has one default index.tsx file
+
+// "yarn run dev" to start the project.
+
 // =================================================================================================
 
 // LESSON 119
@@ -66,7 +90,6 @@
 
 //LESSON 120 - SAAS
 
-// SASS has two formats. 
+// SASS has two formats.
 // 1. SASS
 // 2. SCSS we use this guy.
-
